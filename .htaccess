@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+# home page
+RewriteRule ^home ./controllers/home.php?id=$1 [NC,L]
+
+# link
+RewriteRule ^link ./controllers/home.php?id=$1 [NC,L]
+
+# pp
