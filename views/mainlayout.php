@@ -5,57 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.0.1">
+    <meta name="author" content="">
+    <meta name="generator" content="">
     <title><?php echo $this["title"] ?></title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/own.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-
-    <main role="main" class="container">
-        <div class="starter-template">
+    <div class="container">
+        <header class="p-3 mb-3 border-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                        <img src="images/calendar-outline-filled.png" width="40"/>
+                    </a>
+                </div>
+            </div>
+        </header>
         <?php echo $this['content'] ?>
-        <br/>
-        <?php echo $this['cta'] ?>
-        </div>
-    </main><!-- /.container -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script></body>
+        <footer class="text-center text-white">
+            <div class="container pt-4">
+                <section class="mb-4">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://facebook.com/ricardoalcocer" role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://instagram.com/ralcomusic" role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/ricardoalcocer" role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://linkedin.com/in/ricardoalcocer" role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-linkedin"></i></a>                    
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/ricardoalcocer" role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://youtube.com/alcotube" role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-youtube"></i></a>
+                </section>
+            </div>
+            
+            <div class="text-center text-dark p-3">© 2021 Copyright <a class="text-dark" href="https://alco.rocks/">Alco.rocks</a></div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -7,7 +7,7 @@
       //
     }
 
-    public function getStuff(){
-      return "Here's your stuff";
+    public function getPageTitle(){
+      return "Add to Calendar Buttons";
     }
   }

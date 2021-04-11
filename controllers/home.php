@@ -24,7 +24,7 @@
     $Home = new Home();
     //
 
-    $pageTitle = $Home->getStuff();
+    $pageTitle = $Home->getPageTitle();
     $ctamessage = "This is the Call to Action!";
 
 

@@ -9,4 +9,6 @@ RewriteRule ^home ./controllers/home.php?id=$1 [NC,L]
 # link
 RewriteRule ^link ./controllers/home.php?id=$1 [NC,L]
 
+RewriteRule ^addevent ./controllers/addevent.php [NC,L]
+
 # pp
