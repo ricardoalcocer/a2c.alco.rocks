@@ -19,9 +19,10 @@
     $db->close();
 
     if (!$row){
-        //Header('Location: /error');
-        print_r('error');
-        exit();
+        
+        Header('Location: /error');
+        // print_r('error');
+        // exit();
     }
     
     // comes from db
