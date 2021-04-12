@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                        <img src="images/calendar-outline-filled.png" width="40"/>
+                        <img src="/images/calendar-outline-filled.png" width="40"/>
                     </a>
                 </div>
             </div>

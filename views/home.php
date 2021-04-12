@@ -15,7 +15,7 @@
                 <p class="lead mb-4 text-center">
                     If you don't see a calendar icon to select your date/time fields, it's because I'm lazy and implemented a feature that seems to only be available on Chrome.
                 </p>
-                <form action="/addevent" method="POST}">
+                <form action="/addevent" method="POST">
                     <div class="form-group">
                         <label for="subject"><b>Subject</b></b></label>
                         <input type="text" class="form-control" id="subject" name="subject" aria-describedby="subjectHelp" placeholder="Subject" required>
