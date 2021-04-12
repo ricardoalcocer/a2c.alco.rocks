@@ -15,6 +15,11 @@
                 <p class="lead mb-4 text-center">
                     If you don't see a calendar icon to select your date/time fields, it's because I'm lazy and implemented a feature that seems to only be available on Chrome.
                 </p>
+                <p class="lead mb-4 text-center">
+                    If you find this useful, please consider <a href="https://buymeacoffee.com/alco" target="_blank">Buying me a coffee</a>
+                </p>
+                
+
                 <form action="/addevent" method="POST">
                     <div class="form-group">
                         <label for="subject"><b>Subject</b></b></label>
