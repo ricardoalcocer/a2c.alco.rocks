@@ -38,7 +38,16 @@
                     </div>
                     <div class="form-group">
                         <label for="tz"><b>Timezone</b></label>
-                        <input type="text" class="form-control" id="timezone" name="timezone" placeholder="Timezone" aria-describedat="tzHelp" required>
+                        <!-- <input type="text" class="form-control" id="timezone" name="timezone" placeholder="Timezone" aria-describedat="tzHelp" required> -->
+                        <select class="form-control" name="timezone">
+                        <?php
+                        $timezone_identifiers = DateTimeZone::listIdentifiers();
+                        foreach ($timezone_identifiers as $key => $value) {
+                            echo "<option value=\"{$value}\">" . $value . "</option>";
+                        }
+                        
+                        ?>
+                        </select>
                         <small id="tzHelp" class="form-text text-muted">The timezone for the above dates in format <b>America/New_York</b></small>
                     </div>
                     <div class="form-group">
