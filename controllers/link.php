@@ -19,7 +19,7 @@
     $db->close();
 
     if (!$row){
-        
+
         Header('Location: /error');
         // print_r('error');
         // exit();
@@ -39,6 +39,9 @@
 
     if (strtoupper($type) == 'G'){
         include('../inc/GCalendar.php');
+
+        // this is Google, so let's append the URL to the details
+        $args->details .= $row['url'];
 
         $oLink = new GCalendar();
         $oLink->setSubject($args->subject);
