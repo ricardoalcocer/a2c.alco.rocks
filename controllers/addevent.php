@@ -19,7 +19,7 @@
         "end"       => $qs["end"],
         "timezone"  => $qs["timezone"],
         "details"   => $qs["details"],
-        "locatoin"  => $qs["location"],
+        "location"  => $qs["location"],
         "url"       => $qs["url"],
         "hash"      => $hash,
         "timestamp" => $timestamp

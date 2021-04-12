@@ -4,6 +4,6 @@ RewriteCond %{HTTP:Authorization} ^(.*)
 RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
 
 RewriteRule ^home ./controllers/home.php?id=$1 [NC,L]
-RewriteRule ^cal/([A-Za-z0-9-\s]+)/?$ ./controllers/link.php?id=$1 [NC,L]
+RewriteRule ^cal/([A-Za-z0-9-\s]+)/([A-Za-z0-9-@.\s]+)/?$ ./controllers/link.php?h=$1&t=$2 [NC,L]
 RewriteRule ^addevent ./controllers/addevent.php [NC,L]
 RewriteRule ^confirm/([A-Za-z0-9-\s]+)/?$ ./controllers/confirm.php?id=$1 [NC,L]
