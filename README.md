@@ -1,10 +1,37 @@
-<img src="./images/calendar-outline-filled.png" width="50"><br/>
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="./images/calendar-outline-filled.png" alt="Logo" width="80" height="80">
+  </a>
 
-# Add to Calendar
+  <h3 align="center">Add To Calendar Buttons</h3>
 
-`https://a2c.alco.rocks`
+  <p align="center">
+    A free servcice to generate buttons to add an event to Google and Apple Calendars
+  </p>
+</p>
 
-This repo is a more "formalized" version of the hack I pusblished on https://github.com/ricardoalcocer/add2cal
 
+After I saw that [Eventable](https://eventable.com) charged for this, I decided to build it.  No reason for having to pay for this functionality.
+
+# Built With
+
+* PHP
+* Bootstrap
+
+# Issues, Bugs, Enhancements
+
+Fill out an issue or send me a PR.
+
+# Contact
+
+Alco - https://twitter.com/ricardoalcocer
+
+# Acknowledgements
+
+I'm using a modified version of https://github.com/Stefanius67/GCalendar by https://github.com/Stefanius67
+
+# License
+
+MIT - https://alco.mit-license.org/
 
 
