@@ -46,7 +46,7 @@
                 </section>
             </div>
             
-            <div class="text-center text-dark p-3">© 2021 Copyright <a class="text-dark" href="https://alco.rocks/">Alco.rocks</a></div>
+            <div class="text-center text-dark p-3">© 2021 Copyright <a class="text-dark" href="https://alco.rocks/">Alco.rocks</a> | Find this project on <a href="https://github.com/ricardoalcocer/a2c.alco.rocks" target="_blank">Github</a></div>
         </footer>
     </div>
     
