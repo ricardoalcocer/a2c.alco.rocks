@@ -1,3 +1,5 @@
+> THIS PROJECT IS NO LONGER MAINTAINED IN FAVOR OF ITS NEW INCARNATION OVER AT HTTPS://ADD2CALENDAR.CO
+
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="./images/calendar-outline-filled.png" alt="Logo" width="80" height="80">
